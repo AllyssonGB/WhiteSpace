@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../Site/img/OIGW.jpeg" type="image/x-icon">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Incorporando CSS/Fonts awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link CSS-->
+    <link rel="stylesheet" href="../Site/CSS/style.css">
+    <title>whitepace</title>
+</head>
+
+<body>
+    <!-- Header/Aplicando um fundo usando Style dentro do Header -->
+    <header style="background-image: url(../Site/img/background-home.jpg);">
+        <!-- container -->
+        <div class="container">
+            <nav>
+                <a href="index.html"> <img src="../Site/img/logo.png" alt="Logo"></a>
+                <ul class="ul">
+                    <a href="../Site/index.html">Home</a>
+                    <a href="../Site/HTML/sobre.html">Sobre Nós</a>
+                    <a href="../Site/HTML/servicos.html">Serviços</a>
+                    <a class="btn" href="../Site/HTML/contato.html">Contato</a>
+                    <input type="checkbox" class="checkbox" id="chk">
+                    <label class="label" for="chk">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                        <div class="ball"></div>
+                    </label>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Whitepace</h1>
+                    <p>Construa a sua marca, conquiste o mundo sem habilidades de código ou design necessárias</p>
+                    <a href="contato.html" class="btn animate-btn">Entrar em contato</a>
+                </div>
+            </section>
+        </div>
+        <!-- Fim container -->
+    </header>
+    <!-- Fim do Header -->
+
+    <!--Inicio do faça mais-->
+    <section class="faca-mais">
+        <!-- Inicio do container-->
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Faça mais com WHITEPACE</h3>
+                <p>
+                    Criação de websites, loja virtual, blogs para pequenas, médias e grandes empresas, ter um site
+                    online
+                    nunca foi tão fácil.
+                </p>
+                <a href="../Site/HTML/contato.html" class="btn animate-btn">Entrar em contato</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="../Site/img/img-1.png">
+            </div>
+        </div>
+        <!--Fim do container-->
+    </section>
+    <!--Fim do faça mais-->
+    <!--Inicio do faça mais 2-->
+    <section class="faca-mais">
+        <!-- Inicio do container-->
+        <div class="container">
+            <div class="faca-mais-img">
+                <img src="../Site/img/img-2.png">
+            </div>
+            <div class="faca-mais-text">
+                <h3>Ter um website nunca foi tão fácil</h3>
+                <p>
+                    Agora com a nossa empresa ter um website é algo simplesmente fácil basta entrar em contato e nós
+                    vamos
+                    desenvolver o seu website em tempo recorde para você começar a conquistar o mundo.
+                </p>
+                <a href="../Site/HTML/contato.html" class="btn ">Entrar em contato</a>
+            </div>
+        </div>
+        <!--Fim do container-->
+    </section>
+    <!--Fim do faça mais 2-->
+
+    <!--Nova section/ Depoimentos-->
+    <section class="depoimentos">
+        <div class="container">
+            <h3>Nossas Avaliações</h3>
+            <p>Leia o que nossos clientes falam sobre nós</p>
+            <div class="cards">
+                <!--card item 1-->
+                <div class="card-item">
+                    <img src="../Site/img/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.png" alt="">
+                    <p class="nome-user">Lucas</p>
+                    <p class="depoimento-user">
+                        Fiquei muito impressionado com a qualidade e quantidade de serviços disponíveis. Eles têm uma interface de usuário intuitiva que torna a navegação fácil, o que é uma grande vantagem para pessoas como eu, que não são especialistas em tecnologia.
+                    </p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+                <!--Fim do card item 1-->
+                <!--card item 2-->
+                <div class="card-item">
+                    <img src="../Site/img/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.png" alt="">
+                    <p class="nome-user">Gustavo</p>
+                    <p class="depoimento-user">
+                        Eles oferecem um excelente atendimento ao cliente, qualidade de trabalho incrível e cumprem os prazos à risca. Estou bem satisfeito com o resultado final. Com certeza contratarei os serviços deles sempre que precisar.
+                    </p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+                <!--Fim do card item 2-->
+                <!--card item 3-->
+                <div class="card-item">
+                    <img src="../Site/img/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.png" alt="">
+                    <p class="nome-user">Allysson</p>
+                    <p class="depoimento-user">
+                        Contratei o Whitepace para criar minha loja virtual. Ficou tudo perfeito, além das minhas expectativas. A loja teve um ótimo desempenho, consegui vários clientes. Sem o serviço do Whitepace, não conseguiria atingir nem a metade desse sucesso!
+                    </p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+                <!--Fim do card item 3-->
+            </div>
+        </div>
+    </section>
+    <!--Fim do section/ Depoimentos-->
+    <!--Clientes-->
+    <section class="clientes">
+        <div class="container">
+            <h3>Nossos Clientes</h3>
+            <p>Prestamos serviços a todo tipo de empresa ou projeto, olhe alguns dos nossos clientes</p>
+            <div>
+               <a href="https://www.apple.com/br/" target="_blank" ><img src="../Site/img/apple.png" alt="" class="test"></a> 
+                <a href="https://www.microsoft.com/pt-br" target="_blank"><img src="../Site/img/microsoft.png" alt="" class="test"></a>
+                <a href="https://slack.com/intl/pt-br" target="_blank"><img src="../Site/img/slack.png" alt="" class="test"></a>
+                <a href="https://about.google/intl/ALL_br/" target="_blank"><img src="../Site/img/google.png" alt="" class="test"></a>
+
+            </div>
+    </section>
+    <!--Fim de clientes-->
+    <!--Inicio do faça mais-->
+    <section class="faca-mais">
+        <!-- Inicio do container-->
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Tenha um site seguro!</h3>
+                <p>
+                    Nós trabalhamos com tecnologias atualizadas, rápidas e as mais seguras desse mercado nós fazemos
+                    backup e manutenção no seu site em tempo recorde.
+                </p>
+                <a href="../Site/HTML/contato.html" class="btn animate-btn">Entrar em contato</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="../Site/img/security.png">
+            </div>
+        </div>
+        <!--Fim do container-->
+    </section>
+    <!--Fim do faça mais-->
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"> <i class="fa fa-facebook"></i> </a>
+                <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://github.com/" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://br.linkedin.com/" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+            <p>© Desenvolvido por Lucas Vinícius / Allysson Gabriel / Gustavo Vinícius ©</p>
+        </div>
+    </footer>
+    <!--Fim do footer-->
+    <script src="../Site/JS/index.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+</html>

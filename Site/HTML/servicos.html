@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Incorporando CSS/Fonts awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link CSS-->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Serviços| NOME do site</title>
+</head>
+
+<body>
+    <!-- Header/Aplicando um fundo usando Style dentro do Header -->
+    <header style="background-image: url(../img/background-servicos.jpg);">
+        <!-- container -->
+        <div class="container">
+            <nav>
+                <a href="index.html"> <img src="../img/logo.png" alt="Logo"></a>
+                <ul class="ul">
+                    <a href="../index.html">Home</a>
+                    <a href="sobre.html">Sobre Nós</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a class="btn" href="contato.html">Contato</a>
+                    <input type="checkbox" class="checkbox" id="chk">
+                    <label class="label" for="chk">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                        <div class="ball"></div>
+                    </label>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Serviços</h1>
+                </div>
+            </section>
+        </div>
+        <!-- Fim container -->
+    </header>
+    <!-- Fim do Header -->
+    <section class="servicos">
+        <div class="container">
+            <h3>Nossos serviços</h3>
+            <p>Conheça os nossos melhores serviços que temos para você!</p>
+            <!--começo do row cards-->
+            <div class="rows-cards">
+                <!--row card item 1-->
+                <div class="rows-cards-item">
+                    <img src="../img/cloud.png" alt="">
+                    <p class="nome-servico"> <strong>Serviço em nuvem</strong> </p>
+                    <p class="descricao-servico">Oferecemos uma solução tecnológica que permite o armazenamento, processamento e acesso a dados e aplicativos pela internet, em servidores remotos, em vez de em servidores locais ou dispositivos individuais. Essa tecnologia oferece escalabilidade, flexibilidade e acessibilidade, permitindo que empresas e indivíduos hospedem e acessem recursos de computação de forma eficiente.</p>
+                </div>
+                <!--final row card item 1-->
+                <!--row card item 2-->
+                <div class="rows-cards-item">
+                    <img src="../img/digital-marketing.png" alt="">
+                    <p class="nome-servico"> <strong>Marketing digital</strong> </p>
+                    <p class="descricao-servico">Utilizamos canais e ferramentas online para alcançar e envolver o público-alvo de uma empresa ou organização Ele abrange uma variedade de táticas, como publicidade em mídias sociais, otimização de mecanismos de busca. O objetivo principal do marketing digital é construir a presença online, aumentar a visibilidade da marca, atrair tráfego qualificado, gerar leads e, por fim, converter esses leads em clientes. </p>
+                </div>
+                <!--final row card item 2-->
+                <!--row card item 3-->
+                <div class="rows-cards-item">
+                    <img src="../img/seo.png" alt="">
+                    <p class="nome-servico"> <strong>SEO</strong> </p>
+                    <p class="descricao-servico">Possuímos um conjunto de estratégias e técnicas para melhorar a visibilidade de um site nos resultados de mecanismos de busca, como o Google. Isso é alcançado através de otimizações on-page e off-page, que incluem o uso de palavras-chave relevantes, melhoria na estrutura do site, criação de conteúdo de qualidade e aquisição de links de outros sites.</p>
+                </div>
+                <!--final row card item 3-->
+                <!--row card item 4-->
+                <div class="rows-cards-item">
+                    <img src="../img/virtual_store.png" alt="">
+                    <p class="nome-servico"> <strong>Criação de lojas virtuais</strong> </p>
+                    <p class="descricao-servico">Potencialize seu negócio online com nossa expertise em criação de lojas virtuais. Desenvolvemos soluções personalizadas, atraentes e funcionais que permitem que sua empresa alcance um público maior, aumente as vendas e ofereça uma experiência de compra excepcional. Confie em nossa equipe para construir sua presença online de forma eficiente e eficaz.</p>
+                </div>
+                <!--final row card item 4-->
+                <!--row card item 5-->
+                <div class="rows-cards-item">
+                    <img src="../img/layer.png" alt="">
+                    <p class="nome-servico"> <strong>Identidade visual & disign</strong> </p>
+                    <p class="descricao-servico">Transforme sua marca em uma experiência visual única com nossos serviços de identidade visual e design. Nossa equipe criativa está pronta para dar vida à sua visão, criando logotipos, materiais gráficos e design de alta qualidade que comunicam sua essência e diferenciam sua marca. Deixe-nos ajudá-lo a destacar-se no mercado com um design cativante e uma identidade visual memorável.</p>
+                </div>
+                <!--final row card item 5-->
+                <!--row card item 6-->
+                <div class="rows-cards-item">
+                    <img src="../img/manager.png" alt="">
+                    <p class="nome-servico"> <strong>Criação de conteúdo</strong> </p>
+                    <p class="descricao-servico">Conteúdo que cativa, informa e converte. Oferecemos soluções de criação de conteúdo de alta qualidade para impulsionar sua marca. Desde artigos envolventes até mídia visual atraente, nossa equipe de especialistas produz conteúdo sob medida para suas necessidades. Alcance seu público de forma impactante e conte conosco para contar a sua história de maneira eficaz.</p>
+                </div>
+                <!--final row card item 6-->
+            </div>
+            <!--fim do row cards-->
+        </div>
+    </section>
+    <!--Fim section servicos-->
+    <section class="dados">
+        <!--dados item-->
+        <div class="container">
+            <div class="dados-item">
+                <img src="../img/cloud.png" alt="">
+
+            <p><strong id="contador1" class="btm animate-btm">+360</strong><br>Projetos concluidos</p> 
+            </div>
+
+            <!--fim dados item-->
+            <!--dados item-->
+
+            <div class="dados-item">
+                <img src="../img/manager.png" alt="">
+                
+                <p><strong id="contador" class="btm animate-btm">+890</strong><br>Clientes satisfeitos</p>
+                
+            </div>
+
+            <!--fim dados item-->
+            <!--dados item-->
+
+            <div class="dados-item">
+                <img src="../img/layer.png" alt="">
+                <p><strong id="contador3" class="btm animate-btm">+4303</strong><br>Jornada de trabalho</p>
+            </div>
+
+            <!--fim dados item-->
+            <!--dados item-->
+
+            <div class="dados-item">
+                <img src="../img/trophy.png" alt="">
+                <p><strong id="contador4" class="btm animate-btm">+1243</strong><br>Publicidade paga</p>
+            </div>
+        </div>
+
+        <!--fim dados item-->
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"> <i class="fa fa-facebook"></i> </a>
+                <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://github.com/" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://br.linkedin.com/" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+            <p>© Desenvolvido por Lucas Vinícius / Allysson Gabriel / Gustavo Vinícius ©</p>
+        </div>
+    </footer>
+    <!--Fim do footer-->
+    <script src="../JS/index.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
